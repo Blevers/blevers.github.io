@@ -1,4 +1,22 @@
 body {
-	background-color: purple;
-	color: gray;
+	
+	background: url("http://i.imgur.com/O2MXdap.jpg");
+	background-size: cover;
+	color: black;
+	font-family: sans-serif;
+	text-align: center;
+
+h1 {
+	font-weight: bold;
+}
+
+
+}
+
+#second {
+	font-style: italic;
+}
+
+hr {
+	width: 300px;
 }
