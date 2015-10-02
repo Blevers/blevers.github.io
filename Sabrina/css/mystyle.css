@@ -2,38 +2,40 @@
 
 body {
 	font-size: 18px;
-	line-height: 1.5em
+	font-family: arial, helvetica, sans-serif;
+	line-height: 1.5em;
 
 }
 
 h1 {
 	text-align: right;
-	background-color: #000000
+	background-color: #000000;
 	color: white;
 
 }
 nav {
-	background-color: #aaaaaa
-	font-family: sans-serif;
 	
+	float:left;
+	width:25%;
 }
-}
-a {
-	background-color: #FFB6C1
-	color: black;
-	text-decoration: none; 
-	display: block;
-	padding: 30px;
-	width: 200px;
-
+nav a {
+	background-color: #aaaaaa;
+	color:#fff;
+	display:block;
+	margin:1em;
+	padding:1em;
+	text-decoration:none;
 }
 div.cakes {
 	border-radius: 25px;
-	float: right;
 	background-color: #DDA0DD;
 	color: #000000;
 	text-align: center;
 	margin: 20px;
 	padding: 20px;
 
+}
+#gallery img {
+	float:left;
+	width:16.66%;
 }
