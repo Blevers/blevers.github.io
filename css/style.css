@@ -18,6 +18,11 @@ header {
 	padding: 0;
 
 }
+footer {
+	text-align: center;
+	padding: 1em;
+	clear: both;
+}
 h2 {
 	text-align: center;
 	font-family:'Amatic SC', cursive;
@@ -37,42 +42,28 @@ a {
 	display: block;
 	float: left;
 	padding: 20px;
-	
-
 }
 a:hover {
 	background-color: transparent;
 }
-.column {
-	float: left; 
-	width: 260px;
-	height: 450px;
-	padding: 40px;
+img {
+	display:block;
+	margin:auto;
+	width: 50%;
 }
-#column1 {
+.column {
+	border:5px solid;
 	float: left;
-	border-width: 5px;
-	border-color: #000;
-	background-color: rgba(255,255,255,0);
-	height: 225px;
-	width: 25%;
+	padding:2em;
+	width:25%;
+}
+.column a {
+	display:inline-block;
+	float:none;
+	margin-top:1em;
 }
 #column2 {
-	background-color: rgba(255,255,255,0);
 	width: 50%;
-
-
-}
-#column3 {
-	float: right;
-	background-color: rgba(255,255,255,0);
-	width: 25%;
-	
-}
-img {
-	height: 50%;
-	width: 50%;
-	clear: both;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -82,9 +73,4 @@ img {
 	clear: both;
 	height: 0;
 	
-}
-footer {
-	text-align: center;
-	padding: 1em;
-	clear: both;
 }
