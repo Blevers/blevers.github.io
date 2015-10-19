@@ -1,9 +1,10 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background: url("http://i.imgur.com/Nojp9IT.jpg");
+	background: url("http://i.imgur.com/l9MK0YO.jpg");
 	background-size: cover; 
 	color: black;
-	font-family: sans-serif;
+	text-decoration: bold;
+	font-family: 'Andika', sans-serif;
 	font-size: 18px;
 	
 
@@ -26,20 +27,20 @@ footer {
 h2 {
 	text-align: center;
 	font-family:'Amatic SC', cursive;
-	font-size: 2.5em;
+	font-size: 3.5em;
 
 }
 nav {
 	float: left;
 	background-color: #000;
-	font-family: Arial, sans-serif;
-	display: block;
+	font-family: 'Andika', sans-serif;
+	display: inline-block;
 }
 a {
-	background-color: #DAA520;
+	background-color: rgb(255,0,0);
 	color: #fff;
 	text-decoration: none; 
-	display: block;
+	display: inline-block;
 	float: left;
 	padding: 20px;
 }
@@ -52,7 +53,6 @@ img {
 	width: 50%;
 }
 .column {
-	border:5px solid;
 	float: left;
 	padding:2em;
 	width:25%;
