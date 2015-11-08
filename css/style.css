@@ -73,3 +73,31 @@ img {
 	height: 0;
 	
 }
+ @media only screen and (max-width: 768px) {
+	body {
+		font-size: 20px;
+	}
+	nav {
+		float: none;
+	}
+	nav a {
+		margin: 0 1.5em 1.5em 0;
+	}
+	#column {
+		float: none;
+		width: auto;
+	} 	
+ }
+@media only screen and (max-width: 320px) {
+	body {
+		font-size: 12px;
+	}
+	h1, nav {
+      display: block;
+      text-align: center;
+	}
+	h2 {
+		font-size: 1em;
+		display: inline;
+	}
+}

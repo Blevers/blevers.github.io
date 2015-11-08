@@ -43,13 +43,44 @@ a:hover {
 	height: 450px;
 	padding: 40px;
 }
-#brittany {
-	float: left;
-	background-color: rgba(255,255,255,0);
-	height: 450px;
-	width: 50%;
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 20px;
+	}
+	nav a {
+		margin: 0 1.5em 1.5em 0;
+
+	}
+	.about, .friends {
+		float: none;
+		width: auto;
+	}
+	h1, h2 {
+		font-size: 1.5em;
+	}
 }
-#nico {
-	background-color: rgba(255,255,255,0);
-	width: 50%;
+@media only screen and (max-width: 320px) {
+	body {
+		font-size: 12px;
+	}
+	h1, nav {
+		display: block;
+		text-align: center;
+	}
+	h2 {
+		font-size: 1em;
+		display: inline;
+	}
+	.about {
+		width: 100%;
+		padding: .5em;
+	}
+	.friends {
+		width: 100%;
+		padding: .5em;
+	}
 }
+
+
+
