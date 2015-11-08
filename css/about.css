@@ -1,6 +1,6 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background: url("http://i.imgur.com/l9MK0YO.jpg");
+	background: url("http://i.imgur.com/Nojp9IT.jpg");
 	background-size: cover; 
 	color: black;
 	font-family: sans-serif;
@@ -10,23 +10,25 @@ header {
 	background-color: #000;
 	color: #fff;
 	text-align: center;
+	font-weight: bold;
 	font-family:'Amatic SC', cursive;
 	font-size: 2.7em;
 	padding: 0;
 }
 h2 {
+	text-align: center;
 	font-family:'Amatic SC', cursive;
-	font-size: 3.5em;
+	font-size: 2.5em;
 }
 nav {
 	float: left;
 	background-color: #000;
-	font-family: sans-serif;
+	font-family: Arial, sans-serif;
 	display: block;
 }
 a {
-	background-color: #fc515f;
-	color: white;
+	background-color: #DAA520;
+	color: black;
 	text-decoration: none; 
 	display: block;
 	float: left;
@@ -35,40 +37,50 @@ a {
 a:hover {
 	background-color: transparent;
 }
-img {
+.column {
 	float: left;
-	display: inline-block;
-	border-radius: 10px;
-	margin: 15px;
-	width: 35%;
+	width: 260px;
+	height: 450px;
+	padding: 40px;
 }
 
-.column {
-	float: left; 
-	width: 100%;
-	height: 300px;
-	padding: 60px;
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 20px;
+	}
+	nav a {
+		margin: 0 1.5em 1.5em 0;
+
+	}
+	.about, .friends {
+		float: none;
+		width: auto;
+	}
+	h1, h2 {
+		font-size: 1.5em;
+	}
 }
-.column a {
-	display: inline-block;
-	float: none; 
-	margin: 20px;
+@media only screen and (max-width: 320px) {
+	body {
+		font-size: 12px;
+	}
+	h1, nav {
+		display: block;
+		text-align: center;
+	}
+	h2 {
+		font-size: 1em;
+		display: inline;
+	}
+	.about {
+		width: 100%;
+		padding: .5em;
+	}
+	.friends {
+		width: 100%;
+		padding: .5em;
+	}
 }
-#column {
-	margin: auto;
-}
-#about {
-	text-align: center;
-	width: 100%;
-	height: 300px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-#friends {
-	width: 50%;
-	padding: 15px;
-}
-footer {
-	text-align: center;
-	clear: both;
-}
+
+
+
