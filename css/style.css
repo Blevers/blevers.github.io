@@ -51,7 +51,7 @@ a:hover {
 img {
 	display:block;
 	margin:auto;
-	width: 50%;
+	width: 25%;
 }
 .column {
 	float: left;
@@ -64,7 +64,7 @@ img {
 	margin-top:1em;
 }
 #column2 {
-	width: 50%;
+	width: 75%;
 }
 .clearfix:after {
 	visibility: hidden;
