@@ -3,6 +3,7 @@ body {
 	background: url("http://i.imgur.com/l9MK0YO.jpg");
 	background-size: cover; 
 	color: black;
+	text-align: center;
 	text-decoration: bold;
 	font-family: sans-serif;
 	font-size: 18px;
@@ -26,20 +27,21 @@ footer {
 h2 {
 	text-align: center;
 	font-family:'Amatic SC', cursive;
-	font-size: 3.5em;
+	font-size: 3.0em;
 
 }
 nav {
 	float: left;
 	background-color: #000;
-	font-family: sans-serif;
+	font-family: Arial, sans-serif;
 	display: block;
 }
+
 a {
 	background-color: #fc515f;
 	color: #fff;
 	text-decoration: none; 
-	display: inline-block;
+	display: block;
 	float: left;
 	padding: 17.5px;
 }
@@ -53,8 +55,8 @@ img {
 }
 .column {
 	float: left;
-	padding:2em;
-	width:25%;
+	padding: 2em;
+	width: 25%;
 }
 .column a {
 	display:inline-block;
